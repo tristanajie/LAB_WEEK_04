@@ -3,19 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
     <group
-        android:id="@+id/menu_top"
+        android:id="@+id/menu_left"
         android:checkableBehavior="single">
         <item
             android:id="@+id/listFragment"
             android:icon="@drawable/coffee_menu"
-            android:title="Coffee" />
+            android:title="@string/bottom_menu_coffee" />
     </group>
     <group
-        android:id="@+id/menu_bottom"
+        android:id="@+id/menu_right"
         android:checkableBehavior="single">
         <item
-            android:id="@+id/favoritesFragment"
+            android:id="@+id/cafeFragment"
             android:icon="@drawable/cafe"
-            android:title="Cafe" />
+            android:title="@string/bottom_menu_cafe" />
     </group>
 </menu>
